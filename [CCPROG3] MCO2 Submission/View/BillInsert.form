@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="View.BillInsert">
+  <grid id="27dc6" binding="BillForm" layout-manager="GridLayoutManager" row-count="4" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="40" left="100" bottom="80" right="100"/>
+    <constraints>
+      <xy x="20" y="20" width="1111" height="894"/>
+    </constraints>
+    <properties>
+      <background color="-3676729"/>
+    </properties>
+    <border type="none" title="Modify Money"/>
+    <children>
+      <grid id="e9c24" layout-manager="GridLayoutManager" row-count="9" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="40" left="100" bottom="40" right="100"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="5" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-9336719"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="bad01" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1"/>
+              <text value="1 peso coins:"/>
+            </properties>
+          </component>
+          <component id="35503" class="javax.swing.JTextField" binding="money1">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="100" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-3676729"/>
+              <font name="Consolas"/>
+              <foreground color="-9336719"/>
+              <horizontalAlignment value="4"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="19ff1" class="javax.swing.JTextField" binding="money10">
+            <constraints>
+              <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="100" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-3676729"/>
+              <font name="Consolas"/>
+              <foreground color="-9336719"/>
+              <horizontalAlignment value="4"/>
+            </properties>
+          </component>
+          <component id="9f272" class="javax.swing.JTextField" binding="money50">
+            <constraints>
+              <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="100" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-3676729"/>
+              <font name="Consolas"/>
+              <foreground color="-9336719"/>
+              <horizontalAlignment value="4"/>
+            </properties>
+          </component>
+          <component id="a7ad3" class="javax.swing.JTextField" binding="money200">
+            <constraints>
+              <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="100" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-3676729"/>
+              <font name="Consolas"/>
+              <foreground color="-9336719"/>
+              <horizontalAlignment value="4"/>
+            </properties>
+          </component>
+          <component id="6d00c" class="javax.swing.JTextField" binding="money1000">
+            <constraints>
+              <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="100" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-3676729"/>
+              <font name="Consolas"/>
+              <foreground color="-9336719"/>
+              <horizontalAlignment value="4"/>
+            </properties>
+          </component>
+          <component id="95e2e" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1"/>
+              <text value="10 peso coins:"/>
+            </properties>
+          </component>
+          <component id="693ca" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1"/>
+              <text value="50 peso bills:"/>
+            </properties>
+          </component>
+          <component id="9846b" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1"/>
+              <text value="200 peso bills:"/>
+            </properties>
+          </component>
+          <component id="d5937" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1"/>
+              <text value="1000 peso bills:"/>
+            </properties>
+          </component>
+          <component id="20d67" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28" style="1"/>
+              <foreground color="-1"/>
+              <text value="Modify Machine Money"/>
+            </properties>
+          </component>
+          <component id="91319" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1"/>
+              <text value="Current Money in Machine is:"/>
+            </properties>
+          </component>
+          <component id="ac1cc" class="javax.swing.JLabel" binding="MoneyDisplay1">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="884ca" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1"/>
+              <text value="5 peso coins:"/>
+            </properties>
+          </component>
+          <vspacer id="2f5d0">
+            <constraints>
+              <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <minimum-size width="10" height="20"/>
+                <preferred-size width="10" height="20"/>
+                <maximum-size width="10" height="20"/>
+              </grid>
+            </constraints>
+          </vspacer>
+          <component id="52c13" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1"/>
+              <text value="20 peso bills:"/>
+            </properties>
+          </component>
+          <component id="c98e8" class="javax.swing.JTextField" binding="money5">
+            <constraints>
+              <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="100" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-3676729"/>
+              <font name="Consolas"/>
+              <foreground color="-9336719"/>
+              <horizontalAlignment value="4"/>
+            </properties>
+          </component>
+          <component id="9732d" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1"/>
+              <text value="500 peso bills:"/>
+            </properties>
+          </component>
+          <component id="ddfbf" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1"/>
+              <text value="100 peso bills:"/>
+            </properties>
+          </component>
+          <component id="3652f" class="javax.swing.JTextField" binding="money20">
+            <constraints>
+              <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="100" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-3676729"/>
+              <font name="Consolas"/>
+              <foreground color="-9336719"/>
+              <horizontalAlignment value="4"/>
+            </properties>
+          </component>
+          <component id="87fe4" class="javax.swing.JTextField" binding="money100">
+            <constraints>
+              <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="100" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-3676729"/>
+              <font name="Consolas"/>
+              <foreground color="-9336719"/>
+              <horizontalAlignment value="4"/>
+            </properties>
+          </component>
+          <component id="ef8b4" class="javax.swing.JTextField" binding="money500">
+            <constraints>
+              <grid row="7" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="100" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-3676729"/>
+              <font name="Consolas"/>
+              <foreground color="-9336719"/>
+              <horizontalAlignment value="4"/>
+            </properties>
+          </component>
+          <component id="a18c4" class="javax.swing.JButton" binding="insertbutton">
+            <constraints>
+              <grid row="8" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-3676729"/>
+              <font name="Consolas"/>
+              <foreground color="-9336719"/>
+              <text value="Modify"/>
+            </properties>
+          </component>
+          <hspacer id="eea1b">
+            <constraints>
+              <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="50" height="10"/>
+                <preferred-size width="50" height="10"/>
+                <maximum-size width="50" height="10"/>
+              </grid>
+            </constraints>
+          </hspacer>
+          <component id="9fb42" class="javax.swing.JLabel" binding="MoneyDisplay2">
+            <constraints>
+              <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

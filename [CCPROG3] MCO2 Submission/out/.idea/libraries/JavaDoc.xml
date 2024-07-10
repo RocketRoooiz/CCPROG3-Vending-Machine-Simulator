@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="JavaDoc">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/production/CCPROG3 MP/JavaDoc.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

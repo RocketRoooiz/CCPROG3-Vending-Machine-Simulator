@@ -1,0 +1,956 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="View.SVMCustom">
+  <grid id="27dc6" binding="SVMCFrame" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="50" left="50" bottom="50" right="50"/>
+    <constraints>
+      <xy x="20" y="20" width="1042" height="1024"/>
+    </constraints>
+    <properties>
+      <background color="-1710923"/>
+    </properties>
+    <border type="none" title="Special Vending Machine Custom Order"/>
+    <children>
+      <grid id="baaa7" layout-manager="GridLayoutManager" row-count="9" column-count="14" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="20" left="50" bottom="20" right="50"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6849695"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="c4db3" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="14" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28"/>
+              <foreground color="-1710923"/>
+              <text value="Customize Food"/>
+            </properties>
+          </component>
+          <component id="574d6" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value="Potato"/>
+            </properties>
+          </component>
+          <component id="63e02" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value="Cheese"/>
+            </properties>
+          </component>
+          <component id="f13f8" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value="Gravy"/>
+            </properties>
+          </component>
+          <component id="2b48b" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value="Bacon"/>
+            </properties>
+          </component>
+          <component id="3d28d" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value="BBQ Powder"/>
+            </properties>
+          </component>
+          <component id="a68a7" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value="Salt"/>
+            </properties>
+          </component>
+          <component id="62747" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value="Sour Cream"/>
+            </properties>
+          </component>
+          <component id="5af" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="5" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value="Chili"/>
+            </properties>
+          </component>
+          <component id="cb967" class="javax.swing.JLabel" binding="potatoqty">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="2f738" class="javax.swing.JLabel" binding="cheeseqty">
+            <constraints>
+              <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="bec74" class="javax.swing.JLabel" binding="gravyqty">
+            <constraints>
+              <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="a888a" class="javax.swing.JLabel" binding="baconqty">
+            <constraints>
+              <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="aead4" class="javax.swing.JLabel" binding="potatoprice">
+            <constraints>
+              <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="bd9cb" class="javax.swing.JLabel" binding="cheeseprice">
+            <constraints>
+              <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="c29dd" class="javax.swing.JLabel" binding="gravyprice">
+            <constraints>
+              <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="71f9" class="javax.swing.JLabel" binding="baconprice">
+            <constraints>
+              <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="40492" class="javax.swing.JLabel" binding="bbqqty">
+            <constraints>
+              <grid row="2" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="5c849" class="javax.swing.JLabel" binding="saltqty">
+            <constraints>
+              <grid row="3" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="a89b6" class="javax.swing.JLabel" binding="scqty">
+            <constraints>
+              <grid row="4" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="ef57" class="javax.swing.JLabel" binding="chiliqty">
+            <constraints>
+              <grid row="5" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="7580c" class="javax.swing.JLabel" binding="bbqprice">
+            <constraints>
+              <grid row="2" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="8ddd3" class="javax.swing.JLabel" binding="saltprice">
+            <constraints>
+              <grid row="3" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="a28d" class="javax.swing.JLabel" binding="scprice">
+            <constraints>
+              <grid row="4" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="d60e3" class="javax.swing.JLabel" binding="chiliprice">
+            <constraints>
+              <grid row="5" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="3485" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value="Quantity"/>
+            </properties>
+          </component>
+          <component id="b17d2" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value="Price"/>
+            </properties>
+          </component>
+          <component id="6bda2" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value="Quantity"/>
+            </properties>
+          </component>
+          <component id="b9da3" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value="Price"/>
+            </properties>
+          </component>
+          <component id="e6081" class="javax.swing.JLabel" binding="potatocal">
+            <constraints>
+              <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="7931" class="javax.swing.JLabel" binding="cheesecal">
+            <constraints>
+              <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="42584" class="javax.swing.JLabel" binding="gravycal">
+            <constraints>
+              <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="535db" class="javax.swing.JLabel" binding="baconcal">
+            <constraints>
+              <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="1b60c" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value="Calories"/>
+            </properties>
+          </component>
+          <component id="701e8" class="javax.swing.JLabel" binding="bbqcal">
+            <constraints>
+              <grid row="2" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="dddbb" class="javax.swing.JLabel" binding="saltcal">
+            <constraints>
+              <grid row="3" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="1d994" class="javax.swing.JLabel" binding="sccal">
+            <constraints>
+              <grid row="4" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="15e26" class="javax.swing.JLabel" binding="chilical">
+            <constraints>
+              <grid row="5" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="f3ce3" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value="Calories"/>
+            </properties>
+          </component>
+          <hspacer id="7026d">
+            <constraints>
+              <grid row="2" column="6" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="50" height="10"/>
+                <preferred-size width="50" height="10"/>
+                <maximum-size width="50" height="10"/>
+              </grid>
+            </constraints>
+          </hspacer>
+          <component id="58e58" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value="Amount"/>
+            </properties>
+          </component>
+          <component id="f35cf" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="12" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value="Amount"/>
+            </properties>
+          </component>
+          <component id="be09" class="javax.swing.JTextField" binding="potatoAmt">
+            <constraints>
+              <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="50" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1710923"/>
+              <font name="Consolas"/>
+              <foreground color="-6849695"/>
+              <horizontalAlignment value="4"/>
+            </properties>
+          </component>
+          <component id="5244a" class="javax.swing.JTextField" binding="cheeseAmt">
+            <constraints>
+              <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="50" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1710923"/>
+              <font name="Consolas"/>
+              <foreground color="-6849695"/>
+              <horizontalAlignment value="4"/>
+            </properties>
+          </component>
+          <component id="aa1d9" class="javax.swing.JTextField" binding="gravyAmt">
+            <constraints>
+              <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="50" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1710923"/>
+              <font name="Consolas"/>
+              <foreground color="-6849695"/>
+              <horizontalAlignment value="4"/>
+            </properties>
+          </component>
+          <component id="5e03b" class="javax.swing.JTextField" binding="baconAmt">
+            <constraints>
+              <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="50" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1710923"/>
+              <font name="Consolas"/>
+              <foreground color="-6849695"/>
+              <horizontalAlignment value="4"/>
+            </properties>
+          </component>
+          <component id="e7c04" class="javax.swing.JTextField" binding="bbqAmt">
+            <constraints>
+              <grid row="2" column="12" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="50" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1710923"/>
+              <font name="Consolas"/>
+              <foreground color="-6849695"/>
+              <horizontalAlignment value="4"/>
+            </properties>
+          </component>
+          <component id="17eed" class="javax.swing.JTextField" binding="saltAmt">
+            <constraints>
+              <grid row="3" column="12" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="50" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1710923"/>
+              <font name="Consolas"/>
+              <foreground color="-6849695"/>
+              <horizontalAlignment value="4"/>
+            </properties>
+          </component>
+          <component id="f2822" class="javax.swing.JTextField" binding="scAmt">
+            <constraints>
+              <grid row="4" column="12" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="50" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1710923"/>
+              <font name="Consolas"/>
+              <foreground color="-6849695"/>
+              <horizontalAlignment value="4"/>
+            </properties>
+          </component>
+          <component id="2700" class="javax.swing.JTextField" binding="chiliAmt">
+            <constraints>
+              <grid row="5" column="12" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="50" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1710923"/>
+              <font name="Consolas"/>
+              <foreground color="-6849695"/>
+              <horizontalAlignment value="4"/>
+            </properties>
+          </component>
+          <vspacer id="5a9ed">
+            <constraints>
+              <grid row="6" column="6" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <minimum-size width="50" height="5"/>
+                <preferred-size width="50" height="5"/>
+                <maximum-size width="50" height="5"/>
+              </grid>
+            </constraints>
+          </vspacer>
+          <component id="b0225" class="javax.swing.JButton" binding="exitcustombtn">
+            <constraints>
+              <grid row="7" column="2" row-span="1" col-span="4" vsize-policy="0" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1710923"/>
+              <font name="Consolas"/>
+              <foreground color="-6849695"/>
+              <text value="Exit Custom Order"/>
+            </properties>
+          </component>
+          <component id="32187" class="javax.swing.JButton" binding="confirmCustomOrderButton" default-binding="true">
+            <constraints>
+              <grid row="7" column="7" row-span="1" col-span="5" vsize-policy="0" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1710923"/>
+              <font name="Consolas"/>
+              <foreground color="-6849695"/>
+              <text value="Confirm Custom Order"/>
+            </properties>
+          </component>
+          <hspacer id="22f79">
+            <constraints>
+              <grid row="2" column="8" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="50" height="10"/>
+                <preferred-size width="50" height="10"/>
+                <maximum-size width="50" height="10"/>
+              </grid>
+            </constraints>
+          </hspacer>
+          <hspacer id="c8bf8">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="50" height="10"/>
+                <preferred-size width="50" height="10"/>
+                <maximum-size width="50" height="10"/>
+              </grid>
+            </constraints>
+          </hspacer>
+          <vspacer id="2e28c">
+            <constraints>
+              <grid row="8" column="6" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <minimum-size width="50" height="5"/>
+                <preferred-size width="50" height="5"/>
+                <maximum-size width="50" height="5"/>
+              </grid>
+            </constraints>
+          </vspacer>
+        </children>
+      </grid>
+      <grid id="6a01b" layout-manager="GridLayoutManager" row-count="2" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="20" left="50" bottom="20" right="50"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6849695"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="a680c" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1710923"/>
+              <font name="Consolas" size="20"/>
+              <foreground color="-1710923"/>
+              <text value="Money Inserted:"/>
+            </properties>
+          </component>
+          <hspacer id="5ab14">
+            <constraints>
+              <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="93724" class="javax.swing.JLabel" binding="MoneyDisplay1">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="d06b0" class="javax.swing.JLabel" binding="MoneyDisplay2">
+            <constraints>
+              <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <vspacer id="6793b">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <minimum-size width="50" height="1"/>
+                <preferred-size width="50" height="1"/>
+                <maximum-size width="50" height="1"/>
+              </grid>
+            </constraints>
+          </vspacer>
+          <vspacer id="2dd7b">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <minimum-size width="50" height="1"/>
+                <preferred-size width="50" height="1"/>
+                <maximum-size width="50" height="1"/>
+              </grid>
+            </constraints>
+          </vspacer>
+          <vspacer id="e5da0">
+            <constraints>
+              <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <minimum-size width="50" height="1"/>
+                <preferred-size width="50" height="1"/>
+                <maximum-size width="50" height="1"/>
+              </grid>
+            </constraints>
+          </vspacer>
+          <vspacer id="4c335">
+            <constraints>
+              <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <minimum-size width="50" height="1"/>
+                <preferred-size width="50" height="1"/>
+                <maximum-size width="50" height="1"/>
+              </grid>
+            </constraints>
+          </vspacer>
+          <vspacer id="73ac6">
+            <constraints>
+              <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <minimum-size width="50" height="1"/>
+                <preferred-size width="50" height="1"/>
+                <maximum-size width="50" height="1"/>
+              </grid>
+            </constraints>
+          </vspacer>
+        </children>
+      </grid>
+      <grid id="a4fd8" layout-manager="GridLayoutManager" row-count="5" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="20" left="50" bottom="30" right="50"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6849695"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="5e66e" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="7" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="28"/>
+              <foreground color="-1710923"/>
+              <text value="Pre-made Food"/>
+            </properties>
+          </component>
+          <component id="3c438" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value="1 - Loaded Fries"/>
+            </properties>
+          </component>
+          <component id="96ccb" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value="3 - Cheesy Bacon Fries"/>
+            </properties>
+          </component>
+          <component id="448a4" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value="5 - Mashed Potatoes"/>
+            </properties>
+          </component>
+          <component id="f04d1" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value="Price"/>
+            </properties>
+          </component>
+          <component id="992ad" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value="Calories"/>
+            </properties>
+          </component>
+          <hspacer id="1cb62">
+            <constraints>
+              <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="50" height="10"/>
+                <preferred-size width="50" height="10"/>
+                <maximum-size width="50" height="10"/>
+              </grid>
+            </constraints>
+          </hspacer>
+          <component id="e7c08" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value="2 - Poutine"/>
+            </properties>
+          </component>
+          <component id="47cd0" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value="4 - Nuclear BBQ Fries"/>
+            </properties>
+          </component>
+          <component id="f15b2" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value="Price"/>
+            </properties>
+          </component>
+          <component id="74151" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value="Calories"/>
+            </properties>
+          </component>
+          <component id="4dabd" class="javax.swing.JLabel" binding="loadedfriesprice">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="15339" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value="223g"/>
+            </properties>
+          </component>
+          <component id="3c12e" class="javax.swing.JLabel" binding="cheesybaconfriesprice">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="51fbc" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value="165g"/>
+            </properties>
+          </component>
+          <component id="abe87" class="javax.swing.JLabel" binding="mashedprice">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="6901d" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value="147g"/>
+            </properties>
+          </component>
+          <component id="c152" class="javax.swing.JLabel" binding="poutineprice">
+            <constraints>
+              <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="27680" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value="147g"/>
+            </properties>
+          </component>
+          <component id="23c69" class="javax.swing.JLabel" binding="nuclearbbqprice">
+            <constraints>
+              <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="e5ee7" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value="147g"/>
+            </properties>
+          </component>
+          <component id="8785d" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas"/>
+              <foreground color="-1710923"/>
+              <text value="Enter slot of pre-made food"/>
+            </properties>
+          </component>
+          <component id="ee7d4" class="javax.swing.JTextField" binding="premadetxtfield">
+            <constraints>
+              <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="50" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1710923"/>
+              <font name="Consolas"/>
+              <foreground color="-6849695"/>
+              <horizontalAlignment value="4"/>
+            </properties>
+          </component>
+          <component id="3f1a5" class="javax.swing.JButton" binding="buypremadebtn">
+            <constraints>
+              <grid row="4" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1710923"/>
+              <font name="Consolas"/>
+              <foreground color="-6849695"/>
+              <text value="Buy"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
